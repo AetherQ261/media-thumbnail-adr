@@ -1,0 +1,12 @@
+{
+  "name": "media-thumbnail-adr",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types src/thumbnail_service.test.ts",
+    "run": "node --experimental-strip-types src/run_example.ts"
+  }
+}
